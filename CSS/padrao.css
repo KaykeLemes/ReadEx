@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+:root {
+    --tex1: Playwrite AU SA;
+    --tex2: Lato;
+    --tex3: Open Sans;
+    --cor1: #034c8c;
+    --cor2: #88c1f2;
+    --cor3: #f66b0e;
+    --cor4: #ec9731;
+    --cor5: #f2f2f2;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: var(--tex3);
+    background-color: var(--cor5);
+    border: 0.3vh solid black;
+}
+
+header {
+    display: flex;
+    background-color: var(--cor5);
+    border-bottom: black 0.3vh solid;
+}
+
+main{
+    height: 84.4vh;
+    width: 100%;
+}
+
+.img {
+    width: 15vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-right: black solid 2px;
+}
+
+.img>img {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+}
+
+.info{
+    height: auto;
+    width: 85%;
+
+}
+
+.nome{
+    width: 100%;
+    height: 80%;
+}
+
+h1{
+    font-size: 6vh;
+    height: 80%;
+    width: 100%;
+    color: var(--cor1);
+    display: flex;
+    align-items:end;
+    justify-content: center;
+}
+h2{
+    font-size: 1.8vh;
+    width: 100%;
+    color: var(--cor1);
+    display: flex;
+    align-items:end;
+    justify-content: center;
+}
